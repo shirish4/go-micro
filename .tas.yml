@@ -16,5 +16,8 @@ postMerge:
   # These would be the glob patterns for the test cases that you want to execute in the post-merge jobs. A postMerge test execution job is initiated whenever a PR is merged into a branch.
   pattern:
     # glob-patterns to discover tests to run in case of postMerge
-    - ""
+   -"go get -v -t -d ./..." 
+   -"go get -u github.com/golang/protobuf/protoc-gen-go"
+   -"go mod why github.com/golang/protobuf"
+   - "go mod vendor"
     #test
