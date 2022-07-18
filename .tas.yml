@@ -5,12 +5,12 @@ version: 1.2.0
 #   - "/home/nucleus/repo/cache/memory_test.go##TestCache"
 preRun:
   command:
-     -"go get -v -t -d ./..." 
-     -"go get -u github.com/golang/protobuf/protoc-gen-go"
-     -"go mod why github.com/golang/protobuf"
-     -"go mod vendor"
+    -"go get -v -t -d ./..." 
+    -"go get -u github.com/golang/protobuf/protoc-gen-go"
+    -"go mod why github.com/golang/protobuf"
+    -"go mod vendor"
 
 postMerge:
   pattern:
-    -""
-    #test3
+    - ""
+    #test
