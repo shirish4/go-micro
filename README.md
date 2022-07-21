@@ -1,4 +1,4 @@
-# Go Micro [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/go-micro.dev/v4?tab=doc) [![Community](https://img.shields.io/:community-projects-orange.svg)](https://github.com/go-micro)
+# Go Micro [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/go-micro.dev/v4?tab=doc) [![Community](https://img.shields.io/:community-org-orange.svg)](https://github.com/go-micro)
 
 
 Go Micro is a framework for distributed systems development.
@@ -71,26 +71,21 @@ service.Run()
 
 See the [examples](https://github.com/go-micro/examples) for detailed information on usage.
 
-## Code Generation
+## Tools
 
-See [cmd/protoc-gen-micro](https://github.com/micro/go-micro/tree/master/cmd/protoc-gen-micro) for protobuf code generation.
+See [github.com/go-micro](https://github.com/go-micro) for tooling.
 
-## Community
-
-See [github.com/go-micro](https://github.com/go-micro) for community led projects.
-
+- [API](https://github.com/go-micro/api)
+- [CLI](https://github.com/go-micro/cli)
+- [Demo](https://github.com/go-micro/demo)
 - [Plugins](https://github.com/go-micro/plugins)
 - [Examples](https://github.com/go-micro/examples)
 - [Dashboard](https://github.com/go-micro/dashboard)
-- [CLI](https://github.com/go-micro/cli)
+- [Generator](https://github.com/go-micro/generator)
 
 ## Changelog
 
 See [CHANGELOG.md](https://github.com/micro/go-micro/tree/master/CHANGELOG.md) for release history.
-
-## Evolution
-
-Go Micro started in 2015. It's since evolved into a platform called [Micro](https://micro.dev) and a service called [M3O](https://m3o.com).
 
 ## License
 
