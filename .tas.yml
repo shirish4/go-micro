@@ -2,6 +2,7 @@
 # FIRSTLY - You need to specify which testing framework you are using. Currently supported JS frameworks are : mocha, jest and jasmine.
 framework: golang
 version: 1.2.0
+goVersion: 1.17
 blocklist:
   - "/home/nucleus/repo/api/client/client_test.go##TestBasicCall"
 preRun:
